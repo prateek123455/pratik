@@ -9,7 +9,7 @@ window.addEventListener('load', () => {
 		const task = input.value;
         if (!task){
             alert("Please fill on the task");
-            return;
+            return
         }
 
 		const task_el = document.createElement('div');
